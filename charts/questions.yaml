@@ -229,7 +229,7 @@ questions:
   group: "Nodepools"
 - variable: nodepools.0.memorySize
   label: "Memory Size"
-  default: "2048"
+  default: "16384"
   type: string
   description: "vSphere size of memory for docker VM (in MB)"
   show_if: cloudprovider=vsphere

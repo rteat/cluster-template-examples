@@ -107,7 +107,7 @@ nodepools:
   # hostsystem: ""
 
   # vSphere size of memory for docker VM (in MB)
-  # memorySize: "2048"
+  memorySize: "16384"
 
   # vSphere network where the virtual machine will be attached
   # network: ""
